@@ -15,7 +15,7 @@ import {
 
 const App: React.FC = () => {
   const [images, setImages] = useState<ConversionImage[]>([]);
-  const [quality, setQuality] = useState<number>(0.8); // 80% quality by default
+  const [quality, setQuality] = useState<number>(1); // 100% quality by default
   const [isConverting, setIsConverting] = useState<boolean>(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
